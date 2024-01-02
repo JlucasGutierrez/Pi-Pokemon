@@ -1,0 +1,30 @@
+.nav{
+    background-color: #2f45ff;
+    margin-top: 0px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -8px;
+}
+
+.Search{
+    margin: 25px;
+    /* font-family: 'Great Vibes', cursive; */
+    margin-left: 100px;
+    border-radius: 50px;
+    border-color:#effefa;
+    align-items: center;
+    }
+
+
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #b3ccff;
+  border: none;
+  border-radius: 5px;
+  /* font-family:'Courier New', Courier, monospace */
+}
+

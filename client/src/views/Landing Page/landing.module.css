@@ -1,0 +1,48 @@
+.landingg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+  
+.containervideo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+  
+.video {
+    width: 100vw;
+    height: calc(100vh - 0px); /* Ajusta el valor "40px" según sea necesario */
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buttonlanding {
+    position: absolute;
+    bottom: 10%;
+     left: 48%;
+    transform: translateX(-50%);
+    z-index: 1; 
+}
+  
+.buttonlanding {
+    padding: 15px 30px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background: #ff0000;
+    color: white;
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+}
+  
+.button:hover {
+    animation: a 0.5s 1 linear;
+}
